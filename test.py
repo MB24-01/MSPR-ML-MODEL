@@ -6,7 +6,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 
 # Charger le datamart final
-df = pd.read_excel("Elections4 (1).xlsx")
+df = pd.read_excel("data_final.xlsx")
 
 # Cible du modèle
 target = "PCT Voix"
